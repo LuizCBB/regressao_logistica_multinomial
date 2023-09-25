@@ -1,5 +1,5 @@
 numpy 
 pandas
-streamlit==0.74.0
+streamlit
 scikit-learn
 Pillow

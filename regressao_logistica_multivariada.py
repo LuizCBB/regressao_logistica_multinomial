@@ -109,13 +109,11 @@ st.markdown("<p style='text-align: justify; font-size: 15px;'>2 - Visualizando o
 st.write(dataframe)
 
 st.markdown("<p style='text-align: justify; font-size: 15px;'>3 - Construindo o modelo de classificação utilizando regressão logística multivariada</p>", unsafe_allow_html = True)
-Split = st.slider('Escolha o percentual dos dados que ficarão para teste (padrão = 30):', 0.1, 0.9, 0.30)
+Split = st.slider('Escolha o percentual dos dados que ficarão para teste (padrão = 30%):', 10, 90, 30)
+Split = Split/100
 st.markdown("<p style='text-align: justify; font-size: 14px;'>Selecione os hiperparâmetros para o modelo de regressão logística multivariada:<p>", unsafe_allow_html = True)
-Solver = st.selectbox('Selecione o solver', ('lbfgs', 'newton-cg', 'liblinear', 'sag'))
-if(Solver == 'liblinear'):
-  Penality = st.radio("Selecione uma regularização:", ('none', 'l1', 'l2', 'elasticnet'))
-else:
-  Penality = st.radio("Selecione uma regularização:", ('none', 'l2', 'elasticnet'))  
+Solver = st.selectbox('Selecione o solver (padrão = lbfgs):', ('lbfgs', 'newton-cg', 'liblinear', 'sag'))
+Penality = st.radio("Selecione uma regularização (padrão = none):", ('none', 'l2', 'elasticnet'))  
 Tol = st.text_input("Selecione a tolerância para critério de parada (padrão = 1e-4):", "1e-4")
 Max_Iteration = st.text_input("Número de Iterações (padrão = 50):", "50")
 

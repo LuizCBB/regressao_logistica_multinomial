@@ -65,8 +65,7 @@ def cria_modelo(parameters, dados, split):
 
 
 #Título do algoritmo
-st.markdown('<div id="div_algorithm_name"> <p id = "algorithm_name_title"> Regressão Logística Multivariada</p> </div></br>', unsafe_allow_html=True)
-
+st.header(":orange[Regressão Logística Multivariada]")
 
 ##### Programando o Corpo da Aplicação Web ##### 
 
@@ -169,6 +168,38 @@ if(st.button("Clique para treinar, testar e gerar as métricas do modelo")):
     
 
     
+    
+ 
+
+
+
+
+
+
+
+
+
+                            
+            
+        
+
+
+
+
+
+
+
+
+
+
+
+
+                            
+            
+        
+
+
+
     
  
 

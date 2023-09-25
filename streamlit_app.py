@@ -115,7 +115,7 @@ st.markdown("<p style='text-align: justify; font-size: 14px;'>Selecione os hiper
 Solver = st.selectbox('Selecione o solver (padrão = lbfgs):', ('lbfgs', 'newton-cg', 'liblinear', 'sag'))
 Penality = st.radio("Selecione uma regularização (padrão = none):", ('none', 'l2'))  
 Tol = st.text_input("Selecione a tolerância para critério de parada (padrão = 1e-4):", "1e-4")
-Max_Iteration = st.text_input("Número de Iterações (padrão = 50):", "50")
+Max_Iteration = st.text_input("Número de Iterações (padrão = 50):", "50") 
 
 # Dicionário Para os Hiperparâmetros
 parameters = {'Penality': Penality, 'Tol': Tol, 'Max_Iteration': Max_Iteration, 'Solver': Solver}

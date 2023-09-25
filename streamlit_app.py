@@ -92,7 +92,7 @@ elif dataset_selectbox == 'Wine':
     de vinhos: álcool (alcohol), ácido málico (malic_acid), cinzas (ash), alcalinidade das cinzas (alcalinity_of_ash), magnésio (magnesium),
     fenóis totais (total_phenols), flavonóides (flavanoids), fenóis não flavonóides (nonflavanoid_phenols), proantocianinas (proanthocyanins),
     intensidade de cor (color_intensity), matiz (hue), OD280/OD315 de vinhos diluídos (OD280/OD315_of_diluted_wines) e prolina (proline). Veja mais 
-    informações sobre este <i>dataset</i> <a href='https://archive.ics.uci.edu/dataset/109/wine'>aqui</a>.</p>
+    informações sobre este <i>dataset</i> <a href='https://archive.ics.uci.edu/dataset/109/wine'>aqui</a>.</p> 
     """, unsafe_allow_html=True)
 
 

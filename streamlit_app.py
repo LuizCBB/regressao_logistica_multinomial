@@ -86,8 +86,8 @@ if dataset_selectbox == 'Iris':
 elif dataset_selectbox == 'Wine':
     dataset = sklearn.datasets.load_wine()
     st.markdown("""<p style='text-align: justify; font-size: 15px;'>
-    O <i>dataset</i> Wine é resultado de uma análise química de vinhos cultivados na mesma região da Itália, mas derivados de três cultivares
-    diferentes. Dessa forma, tem-se três categorias (identificadas no <i>dataset</i> como class_0, class_1 e class_2) para a variável a ser predita (variável
+    O <i>dataset</i> Wine é resultado de uma análise química de vinhos cuja matéria prima é proveniente da mesma região da Itália, mas derivada de três cultivares
+    de videiras diferentes. Dessa forma, tem-se três categorias (identificadas no <i>dataset</i> como class_0, class_1 e class_2) para a variável a ser predita (variável
     <i>target</i>). A análise determinou as quantidades de 13 constituintes (que representam as variávels preditoras ou explicativas) encontrados em cada um dos três tipos
     de vinhos: álcool (alcohol), ácido málico (malic_acid), cinzas (ash), alcalinidade das cinzas (alcalinity_of_ash), magnésio (magnesium),
     fenóis totais (total_phenols), flavonóides (flavanoids), fenóis não flavonóides (nonflavanoid_phenols), proantocianinas (proanthocyanins),

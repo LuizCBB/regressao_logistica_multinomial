@@ -78,7 +78,7 @@ if dataset_selectbox == 'Iris':
     O <i>dataset</i> Iris é um conjunto de dados multivariados que consiste de amostras de cada uma de três espécies de plantas
     do gênero Iris (<i>Iris setosa</i>, <i>Iris virginica</i> e <i>Iris versicolor</i>). Quatro variáveis foram medidas em cada amostra: 
     comprimento da sépala (sepal length), largura da sépala (sepal width), comprimento da pétala (petal length) e a largura da pétala (petal width).
-    Todas as medidas estão em centímetros. Veja mais informações dobre este <i>dataset</i> <a href='https://archive.ics.uci.edu/dataset/53/iris'>aqui</a>.</p>
+    Todas as medidas estão em centímetros. Veja mais informações sobre este <i>dataset</i> <a href='https://archive.ics.uci.edu/dataset/53/iris'>aqui</a>.</p>
     """, unsafe_allow_html=True)    
     image = Image.open('flores_de_Iris.png')
     st.image(image, caption='Diferenças entre flores de Iris. Fonte: Wikipédia (https://pt.wikipedia.org/wiki/Conjunto_de_dados_flor_Iris)')
@@ -92,7 +92,7 @@ elif dataset_selectbox == 'Wine':
     de vinhos: álcool (alcohol), ácido málico (malic_acid), cinzas (ash), alcalinidade das cinzas (alcalinity_of_ash), magnésio (magnesium),
     fenóis totais (total_phenols), flavonóides (flavanoids), fenóis não flavonóides (nonflavanoid_phenols), proantocianinas (proanthocyanins),
     intensidade de cor (color_intensity), matiz (hue), OD280/OD315 de vinhos diluídos (OD280/OD315_of_diluted_wines), prolina (proline). Veja mais 
-    informações dobre este <i>dataset</i> <a href='https://archive.ics.uci.edu/dataset/109/wine'>aqui</a>.</p>
+    informações sobre este <i>dataset</i> <a href='https://archive.ics.uci.edu/dataset/109/wine'>aqui</a>.</p>
     """, unsafe_allow_html=True)
 
 

@@ -113,7 +113,7 @@ Split = st.slider('Escolha o percentual dos dados que ficará para teste (padrã
 Split = Split/100
 st.markdown("<p style='text-align: justify; font-size: 14px;'>Selecione os hiperparâmetros para o modelo de regressão logística multivariada:<p>", unsafe_allow_html = True)
 Solver = st.selectbox('Selecione o solver (padrão = lbfgs):', ('lbfgs', 'newton-cg', 'liblinear', 'sag'))
-Penality = st.radio("Selecione uma regularização (padrão = none):", ('none', 'l2', 'elasticnet'))  
+Penality = st.radio("Selecione uma regularização (padrão = none):", ('none', 'l2'))  
 Tol = st.text_input("Selecione a tolerância para critério de parada (padrão = 1e-4):", "1e-4")
 Max_Iteration = st.text_input("Número de Iterações (padrão = 50):", "50")
 
